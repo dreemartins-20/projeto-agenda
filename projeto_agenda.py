@@ -96,7 +96,7 @@ def apagar_contato(contatos, indice_contato):
         contato = contatos.pop(indice_contato_ajustado)
         print(f"\nO contato {contato['Nome']} foi removido da sua agenda com sucesso!")
       else:
-        print("\O contato não foi apago.")
+        print("\nO contato não foi apagado de sua agenda.")
   else:
     print("\nNão foi possível localizar o contato que você indicou.")
 
